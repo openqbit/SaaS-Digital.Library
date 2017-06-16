@@ -11,6 +11,6 @@ namespace OpenQbit.DigitalLib.Common.Models
         public int ID { get; set; }
         public byte[] Path { get; set; }
         public virtual ICollection<ResourcePath> ResourcePath { get; set; }
-        public virtual System System { get; set; }
+        public virtual Systems System { get; set; }
     }
 }
