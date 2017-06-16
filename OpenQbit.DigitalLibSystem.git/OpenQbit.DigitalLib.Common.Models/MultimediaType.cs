@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.DigitalLib.Common.Models
 {
-    public class Class1
+    public class MultimediaType
     {
+        public int ID { get; set; }
+        public string name { get; set; }
+
+        public virtual ICollection<DigitalItem> DigitalItem { get; set; }
     }
 }
