@@ -1,4 +1,5 @@
-﻿using OpenQbit.DigitalLib.Common.Models;
+﻿
+using OpenQbit.DigitalLib.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -32,4 +33,5 @@ namespace OpenQbit.DigitalLib.DataAccess.DAL
         }
 
     }
+
 }
