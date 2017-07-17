@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.DigitalLib.Common.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.DigitalLib.DataAccess.DAL", "OpenQbit.DigitalLib.DataAccess.DAL\OpenQbit.DigitalLib.DataAccess.DAL.csproj", "{FF398621-1C6D-4441-8E92-350549E627CB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 TestClient", "6 TestClient", "{84F68CA9-8EB1-44D6-9B79-1CAA1852A057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.DigitalLib.TestClient.Web", "OpenQbit.DigitalLib.TestClient.Web\OpenQbit.DigitalLib.TestClient.Web.csproj", "{F521FD24-B9C8-468B-834E-5E2BA144DE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{FF398621-1C6D-4441-8E92-350549E627CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF398621-1C6D-4441-8E92-350549E627CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF398621-1C6D-4441-8E92-350549E627CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F521FD24-B9C8-468B-834E-5E2BA144DE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F521FD24-B9C8-468B-834E-5E2BA144DE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F521FD24-B9C8-468B-834E-5E2BA144DE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F521FD24-B9C8-468B-834E-5E2BA144DE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9EE8D807-DB38-4F7E-88AE-6FBB105A122C} = {54E01247-3B9B-4CC5-84B7-2B6B1193A02E}
 		{FF398621-1C6D-4441-8E92-350549E627CB} = {E8933636-B2DE-49EB-9C6D-1103F777B959}
+		{F521FD24-B9C8-468B-834E-5E2BA144DE7C} = {84F68CA9-8EB1-44D6-9B79-1CAA1852A057}
 	EndGlobalSection
 EndGlobal
