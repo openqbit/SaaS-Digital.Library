@@ -202,8 +202,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DigitalItem.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MultimediaType.cs" />
+    <Compile Include="Models\ResourcePath.cs" />
+    <Compile Include="Models\SystemPaths.cs" />
+    <Compile Include="Models\Systems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
